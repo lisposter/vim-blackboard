@@ -14,9 +14,10 @@ hi Normal ctermfg=231 ctermbg=16 cterm=NONE guifg=#f8f8f8 guibg=#0c1021 gui=NONE
 hi NonText ctermfg=59 ctermbg=16 cterm=NONE guifg=#494c59 guibg=#0c1021 gui=NONE
 
 hi Cursor ctermfg=16 ctermbg=145 cterm=NONE guifg=#0c1021 guibg=#aaabb1 gui=NONE
-hi LineNr ctermfg=102 ctermbg=17 cterm=NONE guifg=#82848d guibg=#242737 gui=NONE
+hi LineNr ctermfg=102 ctermbg=17 cterm=NONE guifg=#82848d guibg=#0c1021 gui=NONE
+hi SignColumn ctermfg=102 ctermbg=17 cterm=NONE guifg=#82848d guibg=#0c1021 gui=NONE
 
-hi VertSplit ctermfg=59 ctermbg=59 cterm=NONE guifg=#50535f guibg=#50535f gui=NONE
+hi VertSplit ctermfg=59 ctermbg=59 cterm=NONE guifg=#242737 guibg=#242737 gui=NONE
 hi StatusLine ctermfg=231 ctermbg=59 cterm=bold guifg=#f8f8f8 guibg=#50535f gui=bold
 hi StatusLineNC ctermfg=231 ctermbg=59 cterm=NONE guifg=#f8f8f8 guibg=#50535f gui=NONE
 
@@ -39,7 +40,7 @@ endif
 
 hi ColorColumn ctermfg=NONE ctermbg=17 cterm=NONE guifg=NONE guibg=#242737 gui=NONE
 hi IncSearch ctermfg=16 ctermbg=77 cterm=NONE guifg=#0c1021 guibg=#61ce3c gui=NONE
-hi Directory ctermfg=191 ctermbg=NONE cterm=NONE guifg=#d8fa3c guibg=NONE gui=NONE
+hi Directory ctermfg=191 ctermbg=NONE cterm=NONE guifg=#8da6ce guibg=NONE gui=NONE
 
 " Syntax highlighting
 hi Comment ctermfg=249 ctermbg=NONE cterm=NONE guifg=#aeaeae guibg=NONE gui=NONE
@@ -55,7 +56,7 @@ hi Constant ctermfg=191 ctermbg=NONE cterm=NONE guifg=#d8fa3c guibg=NONE gui=NON
 
 hi Identifier ctermfg=220 ctermbg=NONE cterm=NONE guifg=#fbde2d guibg=NONE gui=NONE
 hi Function ctermfg=202 ctermbg=NONE cterm=NONE guifg=#ff6400 guibg=NONE gui=NONE
-hi Type ctermfg=202 ctermbg=NONE cterm=NONE guifg=#ff6400 guibg=NONE gui=NONE
+hi Type ctermfg=202 ctermbg=NONE cterm=NONE guifg=#fbde2d guibg=NONE gui=NONE
 hi Statement ctermfg=220 ctermbg=NONE cterm=NONE guifg=#fbde2d guibg=NONE gui=NONE
 
 hi Special ctermfg=231 ctermbg=NONE cterm=NONE guifg=#f8f8f8 guibg=NONE gui=NONE
