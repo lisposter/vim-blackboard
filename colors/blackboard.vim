@@ -49,17 +49,17 @@ hi Number ctermfg=191 ctermbg=NONE cterm=NONE guifg=#d8fa3c guibg=NONE gui=NONE
 
 hi Keyword ctermfg=220 ctermbg=NONE cterm=NONE guifg=#fbde2d guibg=NONE gui=NONE
 hi PreProc ctermfg=220 ctermbg=NONE cterm=NONE guifg=#fbde2d guibg=NONE gui=NONE
-hi Conditional ctermfg=220 ctermbg=NONE cterm=NONE guifg=#fbde2d guibg=NONE gui=NONE
+hi Conditional ctermfg=220 ctermbg=NONE cterm=NONE guifg=#fdbe2d guibg=NONE gui=NONE
 
 hi Todo ctermfg=249 ctermbg=NONE cterm=inverse,bold guifg=#aeaeae guibg=NONE gui=inverse,bold
-hi Constant ctermfg=191 ctermbg=NONE cterm=NONE guifg=#d8fa3c guibg=NONE gui=NONE
+hi Constant ctermfg=191 ctermbg=NONE cterm=NONE guifg=#99cc99 guibg=NONE gui=NONE
 
 hi Identifier ctermfg=220 ctermbg=NONE cterm=NONE guifg=#fbde2d guibg=NONE gui=NONE
 hi Function ctermfg=202 ctermbg=NONE cterm=NONE guifg=#ff6400 guibg=NONE gui=NONE
 hi Type ctermfg=202 ctermbg=NONE cterm=NONE guifg=#fbde2d guibg=NONE gui=NONE
 hi Statement ctermfg=220 ctermbg=NONE cterm=NONE guifg=#fbde2d guibg=NONE gui=NONE
 
-hi Special ctermfg=231 ctermbg=NONE cterm=NONE guifg=#f8f8f8 guibg=NONE gui=NONE
+hi Special ctermfg=231 ctermbg=NONE cterm=NONE guifg=#8da6ce guibg=NONE gui=NONE
 hi Operator ctermfg=220 ctermbg=NONE cterm=NONE guifg=#fbde2d guibg=NONE gui=NONE
 
 hi Boolean ctermfg=191 ctermbg=NONE cterm=NONE guifg=#d8fa3c guibg=NONE gui=NONE
@@ -76,6 +76,24 @@ hi Label ctermfg=77 ctermbg=NONE cterm=NONE guifg=#61ce3c guibg=NONE gui=NONE
 hi StorageClass ctermfg=220 ctermbg=NONE cterm=NONE guifg=#fbde2d guibg=NONE gui=NONE
 hi Tag ctermfg=202 ctermbg=NONE cterm=NONE guifg=#ff6400 guibg=NONE gui=NONE
 hi Underlined ctermfg=NONE ctermbg=NONE cterm=underline guifg=NONE guibg=NONE gui=underline
+
+hi link Character       Constant
+hi link Boolean         Constant
+hi link Float           Number
+hi link Repeat          Statement
+hi link Label           Statement
+hi link Exception       Statement
+hi link Include         PreProc
+hi link Define          PreProc
+hi link Macro           PreProc
+hi link PreCondit       PreProc
+hi link StorageClass    Type
+hi link Structure       Type
+hi link Typedef         Type
+hi link Tag             Special
+hi link SpecialChar     Special
+hi link SpecialComment  Special
+hi link Debug           Special
 
 " Ruby
 hi rubyClass ctermfg=220 ctermbg=NONE cterm=NONE guifg=#fbde2d guibg=NONE gui=NONE
