@@ -35,7 +35,7 @@ hi CursorLine ctermfg=NONE ctermbg=17 cterm=NONE guifg=NONE guibg=#242737 gui=NO
 hi CursorColumn ctermfg=NONE ctermbg=17 cterm=NONE guifg=NONE guibg=#242737 gui=NONE
 hi Pmenu ctermfg=202 ctermbg=NONE cterm=NONE guifg=#ff6400 guibg=NONE gui=NONE
 hi PmenuSel ctermfg=NONE ctermbg=24 cterm=NONE guifg=NONE guibg=#253b76 gui=NONE
-hi Search ctermfg=NONE ctermbg=NONE cterm=underline guifg=NONE guibg=NONE gui=underline
+hi Search ctermfg=NONE ctermbg=NONE cterm=underline guifg=#000000 guibg=#fcdf86 gui=NONE
 endif
 
 hi ColorColumn ctermfg=NONE ctermbg=17 cterm=NONE guifg=NONE guibg=#242737 gui=NONE
